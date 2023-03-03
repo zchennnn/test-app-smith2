@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Page1",
-    "slug": "page1",
+    "name": "home",
+    "slug": "home",
     "layouts": [
       {
         "viewMode": false,
@@ -167,7 +167,7 @@
                               "resetFormOnClick": false,
                               "boxShadow": "none",
                               "widgetName": "Button1",
-                              "onClick": "{{copyToClipboard(Tabs1.selectedTab)}}",
+                              "onClick": "{{navigateTo('detail', {}, 'SAME_WINDOW')}}",
                               "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
                               "displayName": "Button",
                               "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
@@ -175,8 +175,8 @@
                                 "click",
                                 "submit"
                               ],
-                              "topRow": 5,
-                              "bottomRow": 9,
+                              "topRow": 10,
+                              "bottomRow": 14,
                               "parentRowSpace": 10,
                               "type": "BUTTON_WIDGET",
                               "hideCard": false,
@@ -187,7 +187,7 @@
                                   "key": "onClick"
                                 }
                               ],
-                              "leftColumn": 0,
+                              "leftColumn": 48,
                               "dynamicBindingPathList": [
                                 {
                                   "key": "buttonColor"
@@ -196,11 +196,11 @@
                                   "key": "borderRadius"
                                 }
                               ],
-                              "text": "Submit",
+                              "text": "go to Detail",
                               "isDisabled": false,
                               "key": "p9n9y6bp5k",
                               "isDeprecated": false,
-                              "rightColumn": 16,
+                              "rightColumn": 63,
                               "isDefaultClickDisabled": true,
                               "widgetId": "emzkueho0b",
                               "isVisible": true,
@@ -592,14 +592,15 @@
         "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Page1",
+        "id": "home",
         "deleted": false,
         "policies": [],
         "userPermissions": []
       }
     ],
     "userPermissions": [],
-    "policies": []
+    "policies": [],
+    "isHidden": false
   },
   "deleted": false,
   "gitSyncId": "640037fb895e076511b28f47_640037fb895e076511b28f49"
