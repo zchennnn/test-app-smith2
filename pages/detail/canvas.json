@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 380,
+          "bottomRow": 730,
           "containerStyle": "none",
           "snapRows": 71,
           "parentRowSpace": 1,
@@ -37,15 +37,16 @@
                 "parent",
                 "group"
               ],
-              "topRow": 14,
-              "bottomRow": 28,
+              "topRow": 21,
+              "bottomRow": 35,
               "parentRowSpace": 10,
               "type": "CONTAINER_WIDGET",
               "hideCard": false,
               "shouldScrollContents": true,
               "animateLoading": true,
               "parentColumnSpace": 25.328125,
-              "leftColumn": 0,
+              "dynamicTriggerPathList": [],
+              "leftColumn": 9,
               "dynamicBindingPathList": [
                 {
                   "key": "borderRadius"
@@ -116,8 +117,10 @@
                       "parentId": "9l5s16ss2a",
                       "renderMode": "CANVAS",
                       "isLoading": false,
+                      "originalTopRow": 0,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "maxDynamicHeight": 9000,
+                      "originalBottomRow": 7,
                       "fontSize": "1rem",
                       "minDynamicHeight": 4
                     },
@@ -190,8 +193,8 @@
               "key": "72x8ngz803",
               "backgroundColor": "#FFFFFF",
               "isDeprecated": false,
-              "rightColumn": 25,
-              "dynamicHeight": "AUTO_HEIGHT",
+              "rightColumn": 34,
+              "dynamicHeight": "FIXED",
               "widgetId": "ahl83y5gqs",
               "containerStyle": "card",
               "isVisible": true,
@@ -199,10 +202,8 @@
               "parentId": "0",
               "renderMode": "CANVAS",
               "isLoading": false,
-              "originalTopRow": 14,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 28,
               "minDynamicHeight": 10
             }
           ]
