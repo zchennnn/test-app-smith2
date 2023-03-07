@@ -17,7 +17,7 @@
     "type": "TABLET_LARGE"
   },
   "publishedAppLayout": {
-    "type": "DESKTOP"
+    "type": "TABLET_LARGE"
   },
   "unpublishedCustomJSLibs": [],
   "publishedCustomJSLibs": [],
