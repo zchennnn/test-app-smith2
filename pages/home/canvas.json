@@ -184,7 +184,7 @@
                                   "key": "onClick"
                                 }
                               ],
-                              "leftColumn": 48,
+                              "leftColumn": 45,
                               "dynamicBindingPathList": [
                                 {
                                   "key": "buttonColor"
@@ -197,7 +197,7 @@
                               "isDisabled": false,
                               "key": "p9n9y6bp5k",
                               "isDeprecated": false,
-                              "rightColumn": 63,
+                              "rightColumn": 64,
                               "isDefaultClickDisabled": true,
                               "widgetId": "emzkueho0b",
                               "isVisible": true,
@@ -800,8 +800,8 @@
                                 "number",
                                 "textarea"
                               ],
-                              "topRow": 6,
-                              "bottomRow": 13,
+                              "topRow": 14,
+                              "bottomRow": 21,
                               "parentRowSpace": 10,
                               "labelWidth": 5,
                               "autoFocus": false,
@@ -856,8 +856,8 @@
                                 "number",
                                 "textarea"
                               ],
-                              "topRow": 14,
-                              "bottomRow": 21,
+                              "topRow": 6,
+                              "bottomRow": 13,
                               "parentRowSpace": 10,
                               "labelWidth": 5,
                               "autoFocus": false,
