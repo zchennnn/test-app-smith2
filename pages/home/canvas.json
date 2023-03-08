@@ -564,11 +564,7 @@
                               "parentColumnSpace": 10.177734375,
                               "dynamicTriggerPathList": [],
                               "borderWidth": "1",
-                              "sourceData": {
-                                "name": "John",
-                                "date_of_birth": "20/02/1990",
-                                "employee_id": 1001
-                              },
+                              "sourceData": "{\n  \"name\": \"John\",\n  \"date_of_birth\": \"20/02/1990\",\n  \"employee_id\": 1001\n}",
                               "resetButtonLabel": "Reset",
                               "key": "k5vp4o5pm3",
                               "backgroundColor": "#fff",
