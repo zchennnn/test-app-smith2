@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1070,
+          "bottomRow": 1510,
           "containerStyle": "none",
           "snapRows": 124,
           "parentRowSpace": 1,
@@ -39,7 +39,7 @@
                 "group"
               ],
               "topRow": 24,
-              "bottomRow": 107,
+              "bottomRow": 151,
               "parentRowSpace": 10,
               "type": "CONTAINER_WIDGET",
               "hideCard": false,
@@ -54,7 +54,7 @@
                   "widgetName": "Canvas1",
                   "displayName": "Canvas",
                   "topRow": 0,
-                  "bottomRow": 830,
+                  "bottomRow": 1270,
                   "parentRowSpace": 1,
                   "type": "CANVAS_WIDGET",
                   "canExtend": false,
@@ -210,6 +210,62 @@
                               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                               "buttonVariant": "PRIMARY",
                               "placement": "CENTER"
+                            },
+                            {
+                              "resetFormOnClick": false,
+                              "boxShadow": "none",
+                              "widgetName": "Button6",
+                              "onClick": "{{ObjectJSONForm.setFields()}}",
+                              "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                              "dynamicPropertyPathList": [
+                                {
+                                  "key": "onClick"
+                                }
+                              ],
+                              "displayName": "Button",
+                              "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
+                              "searchTags": [
+                                "click",
+                                "submit"
+                              ],
+                              "topRow": 10,
+                              "bottomRow": 14,
+                              "parentRowSpace": 10,
+                              "type": "BUTTON_WIDGET",
+                              "hideCard": false,
+                              "animateLoading": true,
+                              "parentColumnSpace": 6.16748046875,
+                              "dynamicTriggerPathList": [
+                                {
+                                  "key": "onClick"
+                                }
+                              ],
+                              "leftColumn": 26,
+                              "dynamicBindingPathList": [
+                                {
+                                  "key": "buttonColor"
+                                },
+                                {
+                                  "key": "borderRadius"
+                                }
+                              ],
+                              "text": "add field",
+                              "isDisabled": false,
+                              "key": "lqu1d1yrbv",
+                              "isDeprecated": false,
+                              "rightColumn": 42,
+                              "isDefaultClickDisabled": true,
+                              "widgetId": "wyoq4eku6g",
+                              "isVisible": true,
+                              "recaptchaType": "V3",
+                              "version": 1,
+                              "parentId": "898s3371h7",
+                              "renderMode": "CANVAS",
+                              "isLoading": false,
+                              "disabledWhenInvalid": false,
+                              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                              "buttonVariant": "PRIMARY",
+                              "placement": "CENTER"
                             }
                           ],
                           "key": "wtyiv430h6",
@@ -257,7 +313,7 @@
                         "group"
                       ],
                       "topRow": 0,
-                      "bottomRow": 43,
+                      "bottomRow": 87,
                       "parentRowSpace": 10,
                       "type": "CONTAINER_WIDGET",
                       "hideCard": false,
@@ -276,7 +332,7 @@
                           "widgetName": "Canvas3",
                           "displayName": "Canvas",
                           "topRow": 0,
-                          "bottomRow": 430,
+                          "bottomRow": 870,
                           "parentRowSpace": 1,
                           "type": "CANVAS_WIDGET",
                           "canExtend": false,
@@ -314,6 +370,18 @@
                                   "key": "resetButtonStyles.borderRadius"
                                 },
                                 {
+                                  "key": "schema.__root_schema__.defaultValue"
+                                },
+                                {
+                                  "key": "schema.__root_schema__.borderRadius"
+                                },
+                                {
+                                  "key": "schema.__root_schema__.cellBorderRadius"
+                                },
+                                {
+                                  "key": "sourceData"
+                                },
+                                {
                                   "key": "schema.__root_schema__.children.name.defaultValue"
                                 },
                                 {
@@ -323,31 +391,76 @@
                                   "key": "schema.__root_schema__.children.name.borderRadius"
                                 },
                                 {
-                                  "key": "schema.__root_schema__.children.date_of_birth.defaultValue"
+                                  "key": "schema.__root_schema__.children.field_1.defaultValue"
                                 },
                                 {
-                                  "key": "schema.__root_schema__.children.date_of_birth.accentColor"
+                                  "key": "schema.__root_schema__.children.field_1.accentColor"
                                 },
                                 {
-                                  "key": "schema.__root_schema__.children.date_of_birth.borderRadius"
+                                  "key": "schema.__root_schema__.children.field_1.borderRadius"
                                 },
                                 {
-                                  "key": "schema.__root_schema__.children.employee_id.defaultValue"
+                                  "key": "schema.__root_schema__.children.field_2.defaultValue"
                                 },
                                 {
-                                  "key": "schema.__root_schema__.children.employee_id.accentColor"
+                                  "key": "schema.__root_schema__.children.field_2.accentColor"
                                 },
                                 {
-                                  "key": "schema.__root_schema__.children.employee_id.borderRadius"
+                                  "key": "schema.__root_schema__.children.field_2.borderRadius"
                                 },
                                 {
-                                  "key": "schema.__root_schema__.defaultValue"
+                                  "key": "schema.__root_schema__.children.field_3.defaultValue"
                                 },
                                 {
-                                  "key": "schema.__root_schema__.borderRadius"
+                                  "key": "schema.__root_schema__.children.field_3.accentColor"
                                 },
                                 {
-                                  "key": "schema.__root_schema__.cellBorderRadius"
+                                  "key": "schema.__root_schema__.children.field_3.borderRadius"
+                                },
+                                {
+                                  "key": "schema.__root_schema__.children.field_4.defaultValue"
+                                },
+                                {
+                                  "key": "schema.__root_schema__.children.field_4.accentColor"
+                                },
+                                {
+                                  "key": "schema.__root_schema__.children.field_4.borderRadius"
+                                },
+                                {
+                                  "key": "schema.__root_schema__.children.field_5.defaultValue"
+                                },
+                                {
+                                  "key": "schema.__root_schema__.children.field_5.accentColor"
+                                },
+                                {
+                                  "key": "schema.__root_schema__.children.field_5.borderRadius"
+                                },
+                                {
+                                  "key": "schema.__root_schema__.children.field_6.defaultValue"
+                                },
+                                {
+                                  "key": "schema.__root_schema__.children.field_6.accentColor"
+                                },
+                                {
+                                  "key": "schema.__root_schema__.children.field_6.borderRadius"
+                                },
+                                {
+                                  "key": "schema.__root_schema__.children.field_7.defaultValue"
+                                },
+                                {
+                                  "key": "schema.__root_schema__.children.field_7.accentColor"
+                                },
+                                {
+                                  "key": "schema.__root_schema__.children.field_7.borderRadius"
+                                },
+                                {
+                                  "key": "schema.__root_schema__.children.field_8.defaultValue"
+                                },
+                                {
+                                  "key": "schema.__root_schema__.children.field_8.accentColor"
+                                },
+                                {
+                                  "key": "schema.__root_schema__.children.field_8.borderRadius"
                                 }
                               ],
                               "showReset": true,
@@ -442,7 +555,7 @@
                               },
                               "disabledWhenInvalid": true,
                               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                              "originalBottomRow": 41,
+                              "originalBottomRow": 34,
                               "useSourceData": false,
                               "schema": {
                                 "__root_schema__": {
@@ -469,17 +582,17 @@
                                       "labelTextSize": "0.875rem",
                                       "label": "Name"
                                     },
-                                    "date_of_birth": {
+                                    "field_1": {
                                       "children": {},
                                       "dataType": "string",
-                                      "defaultValue": "{{((sourceData, formData, fieldState) => (moment(sourceData.date_of_birth, \"DD/MM/YYYY\").format(\"YYYY-MM-DDTHH:mm:ss.sssZ\")))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
+                                      "defaultValue": "{{((sourceData, formData, fieldState) => (moment(sourceData.field_1, \"DD/MM/YYYY\").format(\"YYYY-MM-DDTHH:mm:ss.sssZ\")))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
                                       "fieldType": "Datepicker",
                                       "sourceData": "20/02/1990",
                                       "isCustomField": false,
-                                      "accessor": "date_of_birth",
-                                      "identifier": "date_of_birth",
+                                      "accessor": "field_1",
+                                      "identifier": "field_1",
                                       "position": 1,
-                                      "originalIdentifier": "date_of_birth",
+                                      "originalIdentifier": "field_1",
                                       "accentColor": "{{((sourceData, formData, fieldState) => (appsmith.theme.colors.primaryColor))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
                                       "borderRadius": "{{((sourceData, formData, fieldState) => (appsmith.theme.borderRadius.appBorderRadius))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
                                       "boxShadow": "none",
@@ -489,34 +602,201 @@
                                       "isDisabled": false,
                                       "isRequired": false,
                                       "isVisible": true,
-                                      "label": "Date Of Birth",
+                                      "label": "Field 1",
                                       "maxDate": "2121-12-31T18:29:00.000Z",
                                       "minDate": "1920-12-31T18:30:00.000Z",
                                       "shortcuts": false,
                                       "timePrecision": "minute",
                                       "labelTextSize": "0.875rem"
                                     },
-                                    "employee_id": {
+                                    "field_2": {
                                       "children": {},
-                                      "dataType": "number",
-                                      "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.employee_id))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
-                                      "fieldType": "Number Input",
-                                      "sourceData": 1001,
+                                      "dataType": "string",
+                                      "defaultValue": "{{((sourceData, formData, fieldState) => (moment(sourceData.field_2, \"DD/MM/YYYY\").format(\"YYYY-MM-DDTHH:mm:ss.sssZ\")))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
+                                      "fieldType": "Datepicker",
+                                      "sourceData": "20/02/1990",
                                       "isCustomField": false,
-                                      "accessor": "employee_id",
-                                      "identifier": "employee_id",
+                                      "accessor": "field_2",
+                                      "identifier": "field_2",
                                       "position": 2,
-                                      "originalIdentifier": "employee_id",
+                                      "originalIdentifier": "field_2",
                                       "accentColor": "{{((sourceData, formData, fieldState) => (appsmith.theme.colors.primaryColor))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
                                       "borderRadius": "{{((sourceData, formData, fieldState) => (appsmith.theme.borderRadius.appBorderRadius))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
                                       "boxShadow": "none",
-                                      "iconAlign": "left",
+                                      "closeOnSelection": false,
+                                      "convertToISO": false,
+                                      "dateFormat": "DD/MM/YYYY",
                                       "isDisabled": false,
                                       "isRequired": false,
-                                      "isSpellCheck": false,
                                       "isVisible": true,
-                                      "labelTextSize": "0.875rem",
-                                      "label": "Employee Id"
+                                      "label": "Field 2",
+                                      "maxDate": "2121-12-31T18:29:00.000Z",
+                                      "minDate": "1920-12-31T18:30:00.000Z",
+                                      "shortcuts": false,
+                                      "timePrecision": "minute",
+                                      "labelTextSize": "0.875rem"
+                                    },
+                                    "field_3": {
+                                      "children": {},
+                                      "dataType": "string",
+                                      "defaultValue": "{{((sourceData, formData, fieldState) => (moment(sourceData.field_3, \"DD/MM/YYYY\").format(\"YYYY-MM-DDTHH:mm:ss.sssZ\")))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
+                                      "fieldType": "Datepicker",
+                                      "sourceData": "20/02/1990",
+                                      "isCustomField": false,
+                                      "accessor": "field_3",
+                                      "identifier": "field_3",
+                                      "position": 3,
+                                      "originalIdentifier": "field_3",
+                                      "accentColor": "{{((sourceData, formData, fieldState) => (appsmith.theme.colors.primaryColor))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
+                                      "borderRadius": "{{((sourceData, formData, fieldState) => (appsmith.theme.borderRadius.appBorderRadius))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
+                                      "boxShadow": "none",
+                                      "closeOnSelection": false,
+                                      "convertToISO": false,
+                                      "dateFormat": "DD/MM/YYYY",
+                                      "isDisabled": false,
+                                      "isRequired": false,
+                                      "isVisible": true,
+                                      "label": "Field 3",
+                                      "maxDate": "2121-12-31T18:29:00.000Z",
+                                      "minDate": "1920-12-31T18:30:00.000Z",
+                                      "shortcuts": false,
+                                      "timePrecision": "minute",
+                                      "labelTextSize": "0.875rem"
+                                    },
+                                    "field_4": {
+                                      "children": {},
+                                      "dataType": "string",
+                                      "defaultValue": "{{((sourceData, formData, fieldState) => (moment(sourceData.field_4, \"DD/MM/YYYY\").format(\"YYYY-MM-DDTHH:mm:ss.sssZ\")))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
+                                      "fieldType": "Datepicker",
+                                      "sourceData": "20/02/1990",
+                                      "isCustomField": false,
+                                      "accessor": "field_4",
+                                      "identifier": "field_4",
+                                      "position": 4,
+                                      "originalIdentifier": "field_4",
+                                      "accentColor": "{{((sourceData, formData, fieldState) => (appsmith.theme.colors.primaryColor))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
+                                      "borderRadius": "{{((sourceData, formData, fieldState) => (appsmith.theme.borderRadius.appBorderRadius))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
+                                      "boxShadow": "none",
+                                      "closeOnSelection": false,
+                                      "convertToISO": false,
+                                      "dateFormat": "DD/MM/YYYY",
+                                      "isDisabled": false,
+                                      "isRequired": false,
+                                      "isVisible": true,
+                                      "label": "Field 4",
+                                      "maxDate": "2121-12-31T18:29:00.000Z",
+                                      "minDate": "1920-12-31T18:30:00.000Z",
+                                      "shortcuts": false,
+                                      "timePrecision": "minute",
+                                      "labelTextSize": "0.875rem"
+                                    },
+                                    "field_5": {
+                                      "children": {},
+                                      "dataType": "string",
+                                      "defaultValue": "{{((sourceData, formData, fieldState) => (moment(sourceData.field_5, \"DD/MM/YYYY\").format(\"YYYY-MM-DDTHH:mm:ss.sssZ\")))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
+                                      "fieldType": "Datepicker",
+                                      "sourceData": "20/02/1990",
+                                      "isCustomField": false,
+                                      "accessor": "field_5",
+                                      "identifier": "field_5",
+                                      "position": 5,
+                                      "originalIdentifier": "field_5",
+                                      "accentColor": "{{((sourceData, formData, fieldState) => (appsmith.theme.colors.primaryColor))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
+                                      "borderRadius": "{{((sourceData, formData, fieldState) => (appsmith.theme.borderRadius.appBorderRadius))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
+                                      "boxShadow": "none",
+                                      "closeOnSelection": false,
+                                      "convertToISO": false,
+                                      "dateFormat": "DD/MM/YYYY",
+                                      "isDisabled": false,
+                                      "isRequired": false,
+                                      "isVisible": true,
+                                      "label": "Field 5",
+                                      "maxDate": "2121-12-31T18:29:00.000Z",
+                                      "minDate": "1920-12-31T18:30:00.000Z",
+                                      "shortcuts": false,
+                                      "timePrecision": "minute",
+                                      "labelTextSize": "0.875rem"
+                                    },
+                                    "field_6": {
+                                      "children": {},
+                                      "dataType": "string",
+                                      "defaultValue": "{{((sourceData, formData, fieldState) => (moment(sourceData.field_6, \"DD/MM/YYYY\").format(\"YYYY-MM-DDTHH:mm:ss.sssZ\")))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
+                                      "fieldType": "Datepicker",
+                                      "sourceData": "20/02/1990",
+                                      "isCustomField": false,
+                                      "accessor": "field_6",
+                                      "identifier": "field_6",
+                                      "position": 6,
+                                      "originalIdentifier": "field_6",
+                                      "accentColor": "{{((sourceData, formData, fieldState) => (appsmith.theme.colors.primaryColor))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
+                                      "borderRadius": "{{((sourceData, formData, fieldState) => (appsmith.theme.borderRadius.appBorderRadius))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
+                                      "boxShadow": "none",
+                                      "closeOnSelection": false,
+                                      "convertToISO": false,
+                                      "dateFormat": "DD/MM/YYYY",
+                                      "isDisabled": false,
+                                      "isRequired": false,
+                                      "isVisible": true,
+                                      "label": "Field 6",
+                                      "maxDate": "2121-12-31T18:29:00.000Z",
+                                      "minDate": "1920-12-31T18:30:00.000Z",
+                                      "shortcuts": false,
+                                      "timePrecision": "minute",
+                                      "labelTextSize": "0.875rem"
+                                    },
+                                    "field_7": {
+                                      "children": {},
+                                      "dataType": "string",
+                                      "defaultValue": "{{((sourceData, formData, fieldState) => (moment(sourceData.field_7, \"DD/MM/YYYY\").format(\"YYYY-MM-DDTHH:mm:ss.sssZ\")))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
+                                      "fieldType": "Datepicker",
+                                      "sourceData": "20/02/1990",
+                                      "isCustomField": false,
+                                      "accessor": "field_7",
+                                      "identifier": "field_7",
+                                      "position": 7,
+                                      "originalIdentifier": "field_7",
+                                      "accentColor": "{{((sourceData, formData, fieldState) => (appsmith.theme.colors.primaryColor))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
+                                      "borderRadius": "{{((sourceData, formData, fieldState) => (appsmith.theme.borderRadius.appBorderRadius))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
+                                      "boxShadow": "none",
+                                      "closeOnSelection": false,
+                                      "convertToISO": false,
+                                      "dateFormat": "DD/MM/YYYY",
+                                      "isDisabled": false,
+                                      "isRequired": false,
+                                      "isVisible": true,
+                                      "label": "Field 7",
+                                      "maxDate": "2121-12-31T18:29:00.000Z",
+                                      "minDate": "1920-12-31T18:30:00.000Z",
+                                      "shortcuts": false,
+                                      "timePrecision": "minute",
+                                      "labelTextSize": "0.875rem"
+                                    },
+                                    "field_8": {
+                                      "children": {},
+                                      "dataType": "string",
+                                      "defaultValue": "{{((sourceData, formData, fieldState) => (moment(sourceData.field_8, \"DD/MM/YYYY\").format(\"YYYY-MM-DDTHH:mm:ss.sssZ\")))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
+                                      "fieldType": "Datepicker",
+                                      "sourceData": "20/02/1990",
+                                      "isCustomField": false,
+                                      "accessor": "field_8",
+                                      "identifier": "field_8",
+                                      "position": 8,
+                                      "originalIdentifier": "field_8",
+                                      "accentColor": "{{((sourceData, formData, fieldState) => (appsmith.theme.colors.primaryColor))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
+                                      "borderRadius": "{{((sourceData, formData, fieldState) => (appsmith.theme.borderRadius.appBorderRadius))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
+                                      "boxShadow": "none",
+                                      "closeOnSelection": false,
+                                      "convertToISO": false,
+                                      "dateFormat": "DD/MM/YYYY",
+                                      "isDisabled": false,
+                                      "isRequired": false,
+                                      "isVisible": true,
+                                      "label": "Field 8",
+                                      "maxDate": "2121-12-31T18:29:00.000Z",
+                                      "minDate": "1920-12-31T18:30:00.000Z",
+                                      "shortcuts": false,
+                                      "timePrecision": "minute",
+                                      "labelTextSize": "0.875rem"
                                     }
                                   },
                                   "dataType": "object",
@@ -552,11 +832,32 @@
                               },
                               "dynamicPropertyPathList": [
                                 {
-                                  "key": "schema.__root_schema__.children.date_of_birth.defaultValue"
+                                  "key": "schema.__root_schema__.children.field_1.defaultValue"
+                                },
+                                {
+                                  "key": "schema.__root_schema__.children.field_2.defaultValue"
+                                },
+                                {
+                                  "key": "schema.__root_schema__.children.field_3.defaultValue"
+                                },
+                                {
+                                  "key": "schema.__root_schema__.children.field_4.defaultValue"
+                                },
+                                {
+                                  "key": "schema.__root_schema__.children.field_5.defaultValue"
+                                },
+                                {
+                                  "key": "schema.__root_schema__.children.field_6.defaultValue"
+                                },
+                                {
+                                  "key": "schema.__root_schema__.children.field_7.defaultValue"
+                                },
+                                {
+                                  "key": "schema.__root_schema__.children.field_8.defaultValue"
                                 }
                               ],
                               "displayName": "JSON Form",
-                              "bottomRow": 41,
+                              "bottomRow": 85,
                               "fieldLimitExceeded": false,
                               "parentRowSpace": 10,
                               "title": "Form",
@@ -564,7 +865,7 @@
                               "parentColumnSpace": 10.177734375,
                               "dynamicTriggerPathList": [],
                               "borderWidth": "1",
-                              "sourceData": "{\n  \"name\": \"John\",\n  \"date_of_birth\": \"20/02/1990\",\n  \"employee_id\": 1001\n}",
+                              "sourceData": "{{appsmith.store.formFields}}",
                               "resetButtonLabel": "Reset",
                               "key": "k5vp4o5pm3",
                               "backgroundColor": "#fff",
@@ -609,7 +910,7 @@
                       "originalTopRow": 0,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "maxDynamicHeight": 9000,
-                      "originalBottomRow": 43,
+                      "originalBottomRow": 36,
                       "minDynamicHeight": 10
                     },
                     {
@@ -1060,8 +1361,8 @@
                         "parent",
                         "group"
                       ],
-                      "topRow": 43,
-                      "bottomRow": 81,
+                      "topRow": 87,
+                      "bottomRow": 125,
                       "parentRowSpace": 10,
                       "type": "CONTAINER_WIDGET",
                       "hideCard": false,
@@ -1579,10 +1880,10 @@
                       "parentId": "ell0yuw6yr",
                       "renderMode": "CANVAS",
                       "isLoading": false,
-                      "originalTopRow": 43,
+                      "originalTopRow": 36,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "maxDynamicHeight": 38,
-                      "originalBottomRow": 81,
+                      "originalBottomRow": 74,
                       "minDynamicHeight": 10
                     }
                   ],
@@ -1615,7 +1916,7 @@
               "originalTopRow": 24,
               "borderRadius": "0px",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 107,
+              "originalBottomRow": 100,
               "minDynamicHeight": 10
             },
             {
@@ -2145,7 +2446,21 @@
             }
           ]
         },
-        "layoutOnLoadActions": [],
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "home_ObjectJSONForm.setDefaultFields",
+              "name": "ObjectJSONForm.setDefaultFields",
+              "collectionId": "home_ObjectJSONForm",
+              "confirmBeforeExecute": false,
+              "pluginType": "JS",
+              "jsonPathKeys": [
+                "() => {\n  storeValue('formFieldsIndex', 1);\n  storeValue('formFields', {\n    \"name\": \"John\"\n  });\n}"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
         "id": "home",

@@ -1,0 +1,20 @@
+{
+  "unpublishedCollection": {
+    "name": "ObjectJSONForm",
+    "pageId": "home",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [
+      {
+        "name": "index",
+        "value": "1"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "home_ObjectJSONForm",
+  "deleted": false,
+  "gitSyncId": "640037fb895e076511b28f47_64097ac4c7adde65490baa58"
+}
