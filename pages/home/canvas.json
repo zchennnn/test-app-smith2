@@ -389,69 +389,6 @@
                                 },
                                 {
                                   "key": "schema.__root_schema__.children.name.borderRadius"
-                                },
-                                {
-                                  "key": "schema.__root_schema__.children.field_1.defaultValue"
-                                },
-                                {
-                                  "key": "schema.__root_schema__.children.field_1.accentColor"
-                                },
-                                {
-                                  "key": "schema.__root_schema__.children.field_1.borderRadius"
-                                },
-                                {
-                                  "key": "schema.__root_schema__.children.field_2.defaultValue"
-                                },
-                                {
-                                  "key": "schema.__root_schema__.children.field_2.accentColor"
-                                },
-                                {
-                                  "key": "schema.__root_schema__.children.field_2.borderRadius"
-                                },
-                                {
-                                  "key": "schema.__root_schema__.children.field_3.defaultValue"
-                                },
-                                {
-                                  "key": "schema.__root_schema__.children.field_3.accentColor"
-                                },
-                                {
-                                  "key": "schema.__root_schema__.children.field_3.borderRadius"
-                                },
-                                {
-                                  "key": "schema.__root_schema__.children.field_4.defaultValue"
-                                },
-                                {
-                                  "key": "schema.__root_schema__.children.field_4.accentColor"
-                                },
-                                {
-                                  "key": "schema.__root_schema__.children.field_4.borderRadius"
-                                },
-                                {
-                                  "key": "schema.__root_schema__.children.field_5.defaultValue"
-                                },
-                                {
-                                  "key": "schema.__root_schema__.children.field_5.accentColor"
-                                },
-                                {
-                                  "key": "schema.__root_schema__.children.field_5.borderRadius"
-                                },
-                                {
-                                  "key": "schema.__root_schema__.children.field_6.defaultValue"
-                                },
-                                {
-                                  "key": "schema.__root_schema__.children.field_6.accentColor"
-                                },
-                                {
-                                  "key": "schema.__root_schema__.children.field_6.borderRadius"
-                                },
-                                {
-                                  "key": "schema.__root_schema__.children.field_7.defaultValue"
-                                },
-                                {
-                                  "key": "schema.__root_schema__.children.field_7.accentColor"
-                                },
-                                {
-                                  "key": "schema.__root_schema__.children.field_7.borderRadius"
                                 }
                               ],
                               "showReset": true,
@@ -546,7 +483,7 @@
                               },
                               "disabledWhenInvalid": true,
                               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                              "originalBottomRow": 27,
+                              "originalBottomRow": 78,
                               "useSourceData": false,
                               "schema": {
                                 "__root_schema__": {
@@ -572,195 +509,6 @@
                                       "isVisible": true,
                                       "labelTextSize": "0.875rem",
                                       "label": "Name"
-                                    },
-                                    "field_1": {
-                                      "children": {},
-                                      "dataType": "string",
-                                      "defaultValue": "{{((sourceData, formData, fieldState) => (moment(sourceData.field_1, \"DD/MM/YYYY\").format(\"YYYY-MM-DDTHH:mm:ss.sssZ\")))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
-                                      "fieldType": "Datepicker",
-                                      "sourceData": "20/02/1990",
-                                      "isCustomField": false,
-                                      "accessor": "field_1",
-                                      "identifier": "field_1",
-                                      "position": 1,
-                                      "originalIdentifier": "field_1",
-                                      "accentColor": "{{((sourceData, formData, fieldState) => (appsmith.theme.colors.primaryColor))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
-                                      "borderRadius": "{{((sourceData, formData, fieldState) => (appsmith.theme.borderRadius.appBorderRadius))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
-                                      "boxShadow": "none",
-                                      "closeOnSelection": false,
-                                      "convertToISO": false,
-                                      "dateFormat": "DD/MM/YYYY",
-                                      "isDisabled": false,
-                                      "isRequired": false,
-                                      "isVisible": true,
-                                      "label": "Field 1",
-                                      "maxDate": "2121-12-31T18:29:00.000Z",
-                                      "minDate": "1920-12-31T18:30:00.000Z",
-                                      "shortcuts": false,
-                                      "timePrecision": "minute",
-                                      "labelTextSize": "0.875rem"
-                                    },
-                                    "field_2": {
-                                      "children": {},
-                                      "dataType": "string",
-                                      "defaultValue": "{{((sourceData, formData, fieldState) => (moment(sourceData.field_2, \"DD/MM/YYYY\").format(\"YYYY-MM-DDTHH:mm:ss.sssZ\")))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
-                                      "fieldType": "Datepicker",
-                                      "sourceData": "20/02/1990",
-                                      "isCustomField": false,
-                                      "accessor": "field_2",
-                                      "identifier": "field_2",
-                                      "position": 2,
-                                      "originalIdentifier": "field_2",
-                                      "accentColor": "{{((sourceData, formData, fieldState) => (appsmith.theme.colors.primaryColor))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
-                                      "borderRadius": "{{((sourceData, formData, fieldState) => (appsmith.theme.borderRadius.appBorderRadius))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
-                                      "boxShadow": "none",
-                                      "closeOnSelection": false,
-                                      "convertToISO": false,
-                                      "dateFormat": "DD/MM/YYYY",
-                                      "isDisabled": false,
-                                      "isRequired": false,
-                                      "isVisible": true,
-                                      "label": "Field 2",
-                                      "maxDate": "2121-12-31T18:29:00.000Z",
-                                      "minDate": "1920-12-31T18:30:00.000Z",
-                                      "shortcuts": false,
-                                      "timePrecision": "minute",
-                                      "labelTextSize": "0.875rem"
-                                    },
-                                    "field_3": {
-                                      "children": {},
-                                      "dataType": "string",
-                                      "defaultValue": "{{((sourceData, formData, fieldState) => (moment(sourceData.field_3, \"DD/MM/YYYY\").format(\"YYYY-MM-DDTHH:mm:ss.sssZ\")))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
-                                      "fieldType": "Datepicker",
-                                      "sourceData": "20/02/1990",
-                                      "isCustomField": false,
-                                      "accessor": "field_3",
-                                      "identifier": "field_3",
-                                      "position": 3,
-                                      "originalIdentifier": "field_3",
-                                      "accentColor": "{{((sourceData, formData, fieldState) => (appsmith.theme.colors.primaryColor))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
-                                      "borderRadius": "{{((sourceData, formData, fieldState) => (appsmith.theme.borderRadius.appBorderRadius))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
-                                      "boxShadow": "none",
-                                      "closeOnSelection": false,
-                                      "convertToISO": false,
-                                      "dateFormat": "DD/MM/YYYY",
-                                      "isDisabled": false,
-                                      "isRequired": false,
-                                      "isVisible": true,
-                                      "label": "Field 3",
-                                      "maxDate": "2121-12-31T18:29:00.000Z",
-                                      "minDate": "1920-12-31T18:30:00.000Z",
-                                      "shortcuts": false,
-                                      "timePrecision": "minute",
-                                      "labelTextSize": "0.875rem"
-                                    },
-                                    "field_4": {
-                                      "children": {},
-                                      "dataType": "string",
-                                      "defaultValue": "{{((sourceData, formData, fieldState) => (moment(sourceData.field_4, \"DD/MM/YYYY\").format(\"YYYY-MM-DDTHH:mm:ss.sssZ\")))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
-                                      "fieldType": "Datepicker",
-                                      "sourceData": "20/02/1990",
-                                      "isCustomField": false,
-                                      "accessor": "field_4",
-                                      "identifier": "field_4",
-                                      "position": 4,
-                                      "originalIdentifier": "field_4",
-                                      "accentColor": "{{((sourceData, formData, fieldState) => (appsmith.theme.colors.primaryColor))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
-                                      "borderRadius": "{{((sourceData, formData, fieldState) => (appsmith.theme.borderRadius.appBorderRadius))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
-                                      "boxShadow": "none",
-                                      "closeOnSelection": false,
-                                      "convertToISO": false,
-                                      "dateFormat": "DD/MM/YYYY",
-                                      "isDisabled": false,
-                                      "isRequired": false,
-                                      "isVisible": true,
-                                      "label": "Field 4",
-                                      "maxDate": "2121-12-31T18:29:00.000Z",
-                                      "minDate": "1920-12-31T18:30:00.000Z",
-                                      "shortcuts": false,
-                                      "timePrecision": "minute",
-                                      "labelTextSize": "0.875rem"
-                                    },
-                                    "field_5": {
-                                      "children": {},
-                                      "dataType": "string",
-                                      "defaultValue": "{{((sourceData, formData, fieldState) => (moment(sourceData.field_5, \"DD/MM/YYYY\").format(\"YYYY-MM-DDTHH:mm:ss.sssZ\")))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
-                                      "fieldType": "Datepicker",
-                                      "sourceData": "20/02/1990",
-                                      "isCustomField": false,
-                                      "accessor": "field_5",
-                                      "identifier": "field_5",
-                                      "position": 5,
-                                      "originalIdentifier": "field_5",
-                                      "accentColor": "{{((sourceData, formData, fieldState) => (appsmith.theme.colors.primaryColor))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
-                                      "borderRadius": "{{((sourceData, formData, fieldState) => (appsmith.theme.borderRadius.appBorderRadius))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
-                                      "boxShadow": "none",
-                                      "closeOnSelection": false,
-                                      "convertToISO": false,
-                                      "dateFormat": "DD/MM/YYYY",
-                                      "isDisabled": false,
-                                      "isRequired": false,
-                                      "isVisible": true,
-                                      "label": "Field 5",
-                                      "maxDate": "2121-12-31T18:29:00.000Z",
-                                      "minDate": "1920-12-31T18:30:00.000Z",
-                                      "shortcuts": false,
-                                      "timePrecision": "minute",
-                                      "labelTextSize": "0.875rem"
-                                    },
-                                    "field_6": {
-                                      "children": {},
-                                      "dataType": "string",
-                                      "defaultValue": "{{((sourceData, formData, fieldState) => (moment(sourceData.field_6, \"DD/MM/YYYY\").format(\"YYYY-MM-DDTHH:mm:ss.sssZ\")))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
-                                      "fieldType": "Datepicker",
-                                      "sourceData": "20/02/1990",
-                                      "isCustomField": false,
-                                      "accessor": "field_6",
-                                      "identifier": "field_6",
-                                      "position": 6,
-                                      "originalIdentifier": "field_6",
-                                      "accentColor": "{{((sourceData, formData, fieldState) => (appsmith.theme.colors.primaryColor))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
-                                      "borderRadius": "{{((sourceData, formData, fieldState) => (appsmith.theme.borderRadius.appBorderRadius))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
-                                      "boxShadow": "none",
-                                      "closeOnSelection": false,
-                                      "convertToISO": false,
-                                      "dateFormat": "DD/MM/YYYY",
-                                      "isDisabled": false,
-                                      "isRequired": false,
-                                      "isVisible": true,
-                                      "label": "Field 6",
-                                      "maxDate": "2121-12-31T18:29:00.000Z",
-                                      "minDate": "1920-12-31T18:30:00.000Z",
-                                      "shortcuts": false,
-                                      "timePrecision": "minute",
-                                      "labelTextSize": "0.875rem"
-                                    },
-                                    "field_7": {
-                                      "children": {},
-                                      "dataType": "string",
-                                      "defaultValue": "{{((sourceData, formData, fieldState) => (moment(sourceData.field_7, \"DD/MM/YYYY\").format(\"YYYY-MM-DDTHH:mm:ss.sssZ\")))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
-                                      "fieldType": "Datepicker",
-                                      "sourceData": "20/02/1990",
-                                      "isCustomField": false,
-                                      "accessor": "field_7",
-                                      "identifier": "field_7",
-                                      "position": 7,
-                                      "originalIdentifier": "field_7",
-                                      "accentColor": "{{((sourceData, formData, fieldState) => (appsmith.theme.colors.primaryColor))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
-                                      "borderRadius": "{{((sourceData, formData, fieldState) => (appsmith.theme.borderRadius.appBorderRadius))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
-                                      "boxShadow": "none",
-                                      "closeOnSelection": false,
-                                      "convertToISO": false,
-                                      "dateFormat": "DD/MM/YYYY",
-                                      "isDisabled": false,
-                                      "isRequired": false,
-                                      "isVisible": true,
-                                      "label": "Field 7",
-                                      "maxDate": "2121-12-31T18:29:00.000Z",
-                                      "minDate": "1920-12-31T18:30:00.000Z",
-                                      "shortcuts": false,
-                                      "timePrecision": "minute",
-                                      "labelTextSize": "0.875rem"
                                     }
                                   },
                                   "dataType": "object",
@@ -794,29 +542,7 @@
                                 "boxShadow": "none",
                                 "buttonVariant": "PRIMARY"
                               },
-                              "dynamicPropertyPathList": [
-                                {
-                                  "key": "schema.__root_schema__.children.field_1.defaultValue"
-                                },
-                                {
-                                  "key": "schema.__root_schema__.children.field_2.defaultValue"
-                                },
-                                {
-                                  "key": "schema.__root_schema__.children.field_3.defaultValue"
-                                },
-                                {
-                                  "key": "schema.__root_schema__.children.field_4.defaultValue"
-                                },
-                                {
-                                  "key": "schema.__root_schema__.children.field_5.defaultValue"
-                                },
-                                {
-                                  "key": "schema.__root_schema__.children.field_6.defaultValue"
-                                },
-                                {
-                                  "key": "schema.__root_schema__.children.field_7.defaultValue"
-                                }
-                              ],
+                              "dynamicPropertyPathList": [],
                               "displayName": "JSON Form",
                               "bottomRow": 78,
                               "fieldLimitExceeded": false,
@@ -871,7 +597,7 @@
                       "originalTopRow": 0,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "maxDynamicHeight": 9000,
-                      "originalBottomRow": 29,
+                      "originalBottomRow": 80,
                       "minDynamicHeight": 10
                     },
                     {
@@ -1304,10 +1030,10 @@
                       "parentId": "ell0yuw6yr",
                       "renderMode": "CANVAS",
                       "isLoading": false,
-                      "originalTopRow": 30,
+                      "originalTopRow": 81,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "maxDynamicHeight": 9000,
-                      "originalBottomRow": 76,
+                      "originalBottomRow": 127,
                       "minDynamicHeight": 10
                     },
                     {
@@ -1917,10 +1643,10 @@
                       "parentId": "ell0yuw6yr",
                       "renderMode": "CANVAS",
                       "isLoading": false,
-                      "originalTopRow": 79,
+                      "originalTopRow": 85,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "maxDynamicHeight": 9000,
-                      "originalBottomRow": 89,
+                      "originalBottomRow": 95,
                       "minDynamicHeight": 10
                     }
                   ],
@@ -1953,7 +1679,7 @@
               "originalTopRow": 24,
               "borderRadius": "0px",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 113,
+              "originalBottomRow": 153,
               "minDynamicHeight": 10
             },
             {
